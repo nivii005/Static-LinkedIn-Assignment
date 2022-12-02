@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+background: rgb(235, green235, blue235);
+}
+
+nav .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 4rem;
+    background: #fff;
+}
+
+nav .wrapper .left,
+nav .wrapper .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+nav .wrapper .left{
+    padding-left: 3rem;
+}
+
+nav .wrapper .logo{
+    font-size: 2rem;
+    color: #0a66c2;
+}
+
+nav .wrapper .left .input{
+    background: rgb(226, 245, 245);
+    width: 100%;
+    padding: 0.5rem 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+nav .wrapper .left .input input[type='search']{
+    width: 15rem;
+    border: none;
+    background: transparent;
+}
+
+nav .wrapper .left .input input[type='search']::placeholder{
+    font-size: 0.8rem;
+    color: rgb(49, 49, 49);
+    font-weight: 100;
+}
+
+nav .wrapper .left .input i{
+    font-size: 0.8rem;
+    color: grey;
+}
